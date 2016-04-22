@@ -1,5 +1,5 @@
 {
-  "name": "binder",
+  "name": "binder-core",
   "version": "1.0.0",
   "description": "",
   "main": "dist/Binder.js",

@@ -1,9 +1,9 @@
 var webpack = require("webpack");
 var path = require("path");
 var config = {
-    entry: [
-        path.resolve("src/Binder.js"),
-    ],
+    entry: {
+        "Binder":path.resolve("src/Binder.js"),
+    },
 	output: {
         path: path.resolve("dist"),
         filename: "[name].js",
