@@ -25,8 +25,6 @@ npm install binder-core
         output = v;
     });
     test.a +=5;
-    var result = output;
-    expect(result).toBe(6);
+    expect(output).toBe(6);
     binder.unBinding();
-    var result = output;
-    expect(result).toBe(6);
+    expect(output).toBe(6);
