@@ -1,8 +1,8 @@
 # Binder
 javascript 属性绑定
 
->install
-npm install binder-core
+#install
+>npm install binder-core
 
 #bindProperty
 
